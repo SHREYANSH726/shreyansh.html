@@ -1,0 +1,273 @@
+.topbar {
+  background: #06104d;
+  font-size: 13px;
+}
+
+.small-nav .nav-link {
+  color: #fff;
+  padding: 4px 8px;
+}
+
+.small-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.top-icons a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.top-icons a:hover {
+  color: #ffcc00;
+}
+
+.font-size a {
+  color: #fff;
+  margin: 0 2px;
+  font-weight: 600;
+}
+
+.skip-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.skip-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .small-nav {
+    justify-content: center;
+  }
+  .top-icons {
+    justify-content: center;
+    margin-top: 5px;
+  }
+}
+
+.isro-navbar {
+  background: linear-gradient(to right, #06104d, #020a3a);
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffcc00;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background-color: #06104d;
+  color: #fff;
+}
+
+.search-box input {
+  min-width: 180px;
+}
+  
+.scroll {
+    max-width: 700px;
+    max-height: 200px; /* Set a maximum height for the scrolling area */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling if any */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    background-color: #f9f9f9; /* Optional: Background color for the scroll area */
+}
+
+
+
+
+.header-img {
+background-color: #032848;
+}
+
+.fade-up {
+    background-color: red;
+    border: 2px solid white;
+}
+
+.light {
+    text-decoration: none;
+    color: white;
+}
+
+.out {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.videobutton {
+    position: relative;
+    bottom: 80px;
+}
+
+/* .dropdown-menu {
+    background-color: white !important;
+    color: black !important;
+  } */
+
+.openbtn {
+    font-size: 20px;
+    color: white;
+    padding: 4px 3px;
+    border: none;
+    z-index: 1;
+    position: fixed !important;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+
+}
+
+.sidebtn {
+    font-size: 20px;
+    color: white;
+    padding: 4px 3px;
+    border: none;
+    z-index: 1;
+    position: fixed !important;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+
+
+}
+
+.accordion-button{
+    background-color: #0F6CA0 !important;
+    color: white !important;
+}
+
+.portals img{
+    height: 75px;
+    width: 75px;
+    border: 2px solid blue !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    justify-content: center !important;
+    align-items: center !important;
+   }
+.portals{
+    gap: 60px !important;
+    position: relative;
+}
+.portals h4{
+    padding: 10px !important;
+    font: 5px !important;
+    text-align: center !important;
+    font-family: sans-serif;
+}
+
+.sec-3{
+    background-color: #57A9EC !important;
+}
+.sec-5  {
+    background-color: #57A9EC !important;
+}
+
+.img img{
+    box-sizing: border-box !important;
+    max-height: 75px !important;
+    max-width: 75px !important;
+    border-radius: 50% !important;
+    border: solid 1px black !important;
+    height: 75px !important;
+}
+
+/* .Autonomous img{
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 90px !important;
+    width: 90px !important;
+    gap: 20px ;
+} */
+
+/* .imgslider img{
+    max-width: 50px !important;
+    max-height: 50px !important;
+    margin: 0px !important;
+
+} */
+
+/* .twoimg img{
+    max-height: 50px !important;
+    max-width: 50px !important;
+} */
+
+.isro-footer {
+  background: linear-gradient(to bottom, #06104d, #020a3a);
+  font-size: 14px;
+  position: relative;
+}
+
+.address-box {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-links i {
+  color: #f5b400;
+  margin-right: 6px;
+}
+
+.last-updated {
+  color: #7CFF00;
+  font-size: 13px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 0;
+}
+
+.footer-bottom {
+  font-size: 13px;
+}
+
+.floating-tools {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.floating-tools a {
+  background: #0b3b8f;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 2px;
+  text-align: center;
+  width: 45px;
+}
+
+.floating-tools a:hover {
+  background: #f5b400;
+  color: #000;
+}
